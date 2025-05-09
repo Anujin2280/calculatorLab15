@@ -16,5 +16,6 @@ public class MultiplicationTest {
     void testMultiplyByZero() {
         assertEquals(0.0, mul.multiply(4, 0));
         assertEquals(0.0, mul.multiply(0, 100));
+        // assertEquals(0.0, mul.multiply(0, 100));
     }
 }
